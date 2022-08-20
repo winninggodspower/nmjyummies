@@ -1,0 +1,40 @@
+#nav-search-icon{
+    background-color: transparent;
+}
+
+.rounded-start-0{
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.rounded-end-0{
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.social-icon > *{
+    transition: all .5s ;
+    /* transition: color .2s ; */
+}
+.social-icon >*:hover {
+    font-size: xx-large !important;
+}
+
+.bi-facebook:hover{
+    color: rgba(51, 155, 240, 0.932);
+}
+
+.bi-whatsapp:hover{
+    color: rgba(5, 26, 95, 0.932);
+}
+
+
+
+@media (max-width: 576px) {
+    #cta-btn{
+        width: 100%;
+    }
+    #customersTestimonialCarousel{
+        width: 100% !important;
+    }
+}

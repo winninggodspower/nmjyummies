@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/7dc614ef69.js" crossorigin="anonymous"></script>
+
+    <!------- custom css files -------->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+   <header class=" position-relative">
+        <div class="position-absolute d-none d-md-block top-0 bottom-0 end-0 z-index-n2" style="transform: scaleY(-1);">
+            <svg id="visual" viewBox="0 0 900 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <path
+                    d="M754 600L765.5 585.7C777 571.3 800 542.7 757.7 514.2C715.3 485.7 607.7 457.3 608.8 428.8C610 400.3 720 371.7 759.8 343C799.7 314.3 769.3 285.7 770.2 257C771 228.3 803 199.7 771.3 171.2C739.7 142.7 644.3 114.3 588.7 85.8C533 57.3 517 28.7 509 14.3L501 0L900 0L900 14.3C900 28.7 900 57.3 900 85.8C900 114.3 900 142.7 900 171.2C900 199.7 900 228.3 900 257C900 285.7 900 314.3 900 343C900 371.7 900 400.3 900 428.8C900 457.3 900 485.7 900 514.2C900 542.7 900 571.3 900 585.7L900 600Z"
+                    fill="#212529" stroke-linecap="round" stroke-linejoin="miter"></path>
+            </svg>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-light" aria-label="Third navbar example">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/peanut-bag-icon.jpg" width="30px" height="30px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                <li class="nav-item px-md-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link opacity-100">Packages</a>
+                </li>
+                <li class="nav-item px-md-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                    <ul class="dropdown-menu bg-dark">
+                    <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                    <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                    <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <section class="social-icon d-flex">
+                    <div class="me-3 fs-5 "><i class="bi bi-facebook"></i></div>
+                    <div class="me-3 fs-5"><i class="bi bi-whatsapp"></i></div>
+                    <div class="me-3 fs-5"><i class="bi bi-instagram"></i></div>
+                </section>
+            </div>
+            </div>
+        </nav>
+
+        <main class="mt-5 row container m-auto">
+            <div class="col-12 col-md-6 ">
+                <div>
+                    <span class="blockquote text-warning">nmjyunnies packaging</span>
+                    <h1 class="display-1">Freshness in every crunch</h1>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illo ab eaque velit nam earum.</p>
+                    <button id="cta-btn" class="btn btn-lg btn-dark rounded-pill shadow-lg">Place Order</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 position-relative">
+                <div>
+                    <img class="w-100 " src="./images/nmj-peanuts/nmjpeanuts_plain/IMG-20220819-WA0004-removebg-preview.png" alt="">
+                </div>
+                <div class="position-absolute top-0 bottom-0 start-0 end-0">
+                    <img id="peanut1" class="position-absolute" src="./images/nmj-peanuts/assends/nature-peanut-one.png" alt="">
+                    <img id="peanut6" class="position-absolute top-50 start-50 translate-middle" src="./images/nmj-peanuts/assends/peanut-nature-1.png" alt="">
+                    <img id="peanut3" class="position-absolute bottom-0" src="./images/nmj-peanuts/assends/peanut-2-anim.png" alt="">
+                </div>
+            </div>
+        </main>
+
+        <img id="peanut4" class="position-absolute top-0 end-0" src="./images/nmj-peanuts/assends/nature-peanut-2.png" alt="">
+        <!-- <img id="peanut5" class="position-absolute top-0" src="./images/nmj-peanuts/assends/small-peanut-anim.png" alt=""> -->
+        <img id="peanut2" class="position-absolute top-50 " src="./images/nmj-peanuts/assends/nature-peanut-many.png" alt="">
+        <img id="peanut7" class="position-absolute" src="./images/nmj-peanuts/assends/peanut-1-anim.png" alt="">
+       
+   </header>
+
+   <section class="bg-dark py-4" >
+        <div class="text-center">
+            <span class="blockquote text-warning">What nmjyunnies offers</span>
+            <h2 class="text-light mb-4 display-6">Your Favorite Peanut Dilivery Pattern</h2>
+            <div class="row">
+                <div class="col-12 col-md-4 text-center d-flex align-items-end mb-4">
+                    <div>
+                        <img class="w-75 " src="./images/illustration/messages.svg" alt="">
+                        <p class="text-light lead">📞Contact to place an order</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center d-flex align-items-end mb-4">
+                    <div>
+                        <img class="w-75 " src="./images/illustration/on_the_way.svg" alt="">
+                    <p class="text-light lead">Fast dilivery</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center d-flex align-items-end mb-4">
+                    <div>
+                        <img class="w-75 " src="./images/illustration/eating_together_re_ux62.svg" alt="">
+                    <p class="text-light lead">Enjoy <i class="text-warning f-italic fw-bold">nmjyummies</i> peanuts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-75 m-auto"><button class="btn rounded-pill btn-lg btn-light w-75">Contact Us</button></div>
+        </div>
+   </section>
+
+   <section>
+
+    <main class="mt-5 row">
+       
+        <div class="col-12 col-md-5 d-none d-md-block">
+            <div>
+                <img class="w-100" src="./images/nmj-peanuts/nmjpeanuts_plain/hands_on_peanuts2.png" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md mx-0 ">
+            <div class="d-flex h-100 justify-items-center align-items-center">
+
+                <!-- <div class="text-center w-75">
+                    <img src="./images/people/person3.jpg" alt="" width="70px" height="70px" class="rounded-circle">
+                    <figcaption class="text-warning fw-bold">"williams shackspare"</figcaption>
+                    <blockquote class="blockquote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda corrupti esse quis hic dignissimos?</blockquote>
+                </div> -->
+                <div id="customersTestimonialCarousel" class="carousel carousel-dark slide w-75" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#customersTestimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#customersTestimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#customersTestimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="text-center w-75 m-auto mb-5">
+                            <img src="./images/people/person3.jpg" alt="" width="70px" height="70px" class="rounded-circle">
+                            <figcaption class="text-warning fw-bold">"williams shackspare"</figcaption>
+                            <blockquote class="blockquote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda corrupti esse quis hic dignissimos?</blockquote>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="text-center w-75 m-auto mb-5">
+                            <img src="./images/people/person2.jpg" alt="" width="70px" height="70px" class="rounded-circle">
+                            <figcaption class="text-warning fw-bold">"David Tonifie"</figcaption>
+                            <blockquote class="blockquote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda corrupti esse quis hic dignissimos?</blockquote>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="text-center w-75 m-auto mb-5">
+                            <img src="./images/people/person1.jpg" alt="" width="70px" height="70px" class="rounded-circle">
+                            <figcaption class="text-warning fw-bold">"williams shackspare"</figcaption>
+                            <blockquote class="blockquote">Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, facilis?</blockquote>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#customersTestimonialCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#customersTestimonialCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+            </div>
+        </div>
+    </main>
+
+   </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
