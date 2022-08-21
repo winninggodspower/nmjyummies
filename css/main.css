@@ -1,3 +1,7 @@
+body{
+    /* overflow-x: hidden; */
+}
+
 #nav-search-icon{
     background-color: transparent;
 }
@@ -29,7 +33,6 @@
 }
 
 
-
 @media (max-width: 576px) {
     #cta-btn{
         width: 100%;
@@ -39,5 +42,8 @@
     }
     #testimonial-heading{
         width: 100% !important;
+    }
+    #checkout-img{
+        height: 200px;
     }
 }
