@@ -1,11 +1,11 @@
-const peanutPrice = 250;
+const peanutPrice = 1200;
 const UserEmailAdress = 'winninggodspower@gmail.com';
 
 const addBtn = document.getElementById('add-product');
 const redBtn = document.getElementById('delete-product');
 const qtn = document.getElementById('product-quantity');
 const price = document.getElementById('price');
-
+const orderForm =  document.getElementById('order-form');
 
 addBtn.addEventListener('click', ()=>{
     qtn.innerHTML = new Number(qtn.innerText) + 1
@@ -56,14 +56,14 @@ async function httpGetAsync(e) {
     });
 }
 
-document.getElementById('order-form').addEventListener('submit', httpGetAsync);
+orderForm.addEventListener('submit', httpGetAsync);
 
 
 //   code for sending the email
 const mainslurpApi_kei = 'a721588980e34fb723e6cbf7639d5ebd5eca3046f400921102cdea3520e9ada9'
 
 let constructEmailbody = ()=>{
-    let formData = document.getElementById('order-form').elements
+    let formData = orderForm.elements
     console.log(formData);
     return `
     Location: ${formData['location'].value},\n
@@ -85,5 +85,5 @@ async function sendEmail(emailBody) {
             }).then(
                 message => alert("mail sent successfully")
         );
-    alert('Email sent');
+    
 }
